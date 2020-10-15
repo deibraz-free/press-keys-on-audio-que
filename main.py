@@ -47,7 +47,8 @@ def handleKeys(vol):
                     pressButton("y")
                     print("Positive")
                 else:    
-                    pressButton("Negative")
+                    pressButton("n")
+                    print("Negative")
 
                 print("Total processed " + str(processed) + " recordings")
 
